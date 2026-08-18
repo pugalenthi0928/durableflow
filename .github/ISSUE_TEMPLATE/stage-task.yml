@@ -1,0 +1,45 @@
+name: Stage learning task
+description: Define one problem-before-tool implementation or experiment.
+title: "[stage] "
+labels: ["learning-stage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and current limitation
+      description: Describe the user-visible or operational limitation without naming a solution.
+    validations:
+      required: true
+  - type: textarea
+    id: prediction
+    attributes:
+      label: Failure prediction
+      description: Predict what will happen, why, and which evidence will confirm or falsify it.
+    validations:
+      required: true
+  - type: textarea
+    id: invariant
+    attributes:
+      label: Invariant or engineering concept
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options and trade-offs
+      description: Compare at least two solutions and include the option of doing nothing.
+    validations:
+      required: true
+  - type: textarea
+    id: not_yet
+    attributes:
+      label: What must not be introduced yet
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria and evidence
+    validations:
+      required: true
+
