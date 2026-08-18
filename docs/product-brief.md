@@ -2,8 +2,7 @@
 
 ## Product promise
 
-An authorized member of an organization submits a document to a named, versioned processing
-pipeline. DurableFlow makes the job's state and progress visible and eventually produces one
+An authorized member of an organization submits a document to a named, versioned processing pipeline. DurableFlow makes the job's state and progress visible and eventually produces one
 verifiable artifact or one explicit, recoverable terminal failure.
 
 ## Primary user journey
@@ -15,8 +14,7 @@ verifiable artifact or one explicit, recoverable terminal failure.
 5. The user can inspect status and provenance.
 6. The user downloads the result or understands how to recover from failure.
 
-Stage 1 proves only a small vertical slice: submit text, process it synchronously, and retrieve
-the in-memory result.
+Stage 1 proves only a small vertical slice: submit text, process it synchronously, and retrieve the in-memory result.
 
 ## Initial domain vocabulary
 
